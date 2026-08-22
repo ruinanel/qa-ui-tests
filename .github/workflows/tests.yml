@@ -23,20 +23,25 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false          # не останавливать остальные браузеры при падении одного
+      matrix:
+        browser: [chromium, firefox, webkit]   # кросс-браузерность
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Install Playwright browsers
-        run: python -m playwright install --with-deps chromium
-
-      - name: Run tests
-        run: pytest -v
+      - name: Install Playwright browser
+        run: python -m playwright install --with-deps ${{ matrix.browser }}
+      - name: Run tests (parallel + selected browser)
+        run: pytest -v -n auto --browser ${{ matrix.browser }}
+      - name: Upload artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-${{ matrix.browser }}
+          path: test-results/
+          retention-days: 7
