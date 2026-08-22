@@ -1,6 +1,7 @@
 # UI-автотесты (Playwright + Page Object)
 
-![API tests](https://github.com/ruinanel/qa-ui-tests/actions/workflows/tests.yml/badge.svg)
+![UI tests](https://github.com/ruinanel/qa-ui-tests/actions/workflows/tests.yml/badge.svg)
+
 E2E-автотесты веб-интерфейса на Python с паттерном **Page Object Model**.
 Тестируемый сайт — [saucedemo.com](https://www.saucedemo.com) (демо-магазин).
 
