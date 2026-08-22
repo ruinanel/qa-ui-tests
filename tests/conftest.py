@@ -38,7 +38,7 @@ def auth_state(browser: Browser, tmp_path_factory) -> str:
     login = LoginPage(page)
     login.load()
     login.login("standard_user", "secret_sauce")
-    page.wait_for_url("**/inventory.html")   # дождались успешного входа
+    page.wait_for_url("**/inventory.html")  # дождались успешного входа
 
     context.storage_state(path=str(state_path))
     context.close()

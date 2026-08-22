@@ -1,4 +1,3 @@
-
 from pages.inventory_page import InventoryPage
 
 INVENTORY_URL = "https://www.saucedemo.com/inventory.html"
