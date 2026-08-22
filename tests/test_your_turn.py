@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """ТВОИ ЗАДАНИЯ — напиши UI-тесты сама.
 
 Где искать «инструменты»:
@@ -9,7 +8,6 @@
 Запуск:             pytest tests/test_your_turn.py -v
 Посмотреть глазами:  pytest tests/test_your_turn.py --headed --slowmo 800
 """
-import pytest
 
 from pages.inventory_page import InventoryPage
 

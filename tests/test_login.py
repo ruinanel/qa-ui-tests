@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
 """ПРИМЕРЫ UI-тестов логина. Читай, запускай, бери за образец.
 Запуск:  pytest tests/test_login.py -v
 Посмотреть в браузере (не headless):  pytest tests/test_login.py --headed
 """
-from pages.login_page import LoginPage
+
 from pages.inventory_page import InventoryPage
 
 
