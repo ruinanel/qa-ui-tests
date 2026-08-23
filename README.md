@@ -1,7 +1,7 @@
 # UI-автотесты (Playwright + Page Object)
 
 ![UI tests](https://github.com/ruinanel/qa-ui-tests/actions/workflows/tests.yml/badge.svg)
-![Allure report](https://github.com/ruinanel/qa-ui-tests/actions/workflows/allure.yml/badge.svg)
+![Allure UI report](https://github.com/ruinanel/qa-ui-tests/actions/workflows/allure.yml/badge.svg)
 
 📊 **Live Allure-отчёт:** https://ruinanel.github.io/qa-ui-tests/ (обновляется в CI)
 
