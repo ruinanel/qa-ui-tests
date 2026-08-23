@@ -3,6 +3,8 @@ name: UI tests
 on:
   push:
   pull_request:
+  schedule:
+    - cron: "0 3 * * *"   # ночной прогон каждый день в 03:00 UTC
 
 jobs:
   lint:
