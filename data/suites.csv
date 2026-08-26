@@ -1,10 +1,10 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","103","test_invalid_password_shows_error[chromium]","tests","2026-08-25","passed","2026-08-25","","test_login","",""
-"","142","test_inventory_shows_six_products[chromium]","tests","2026-08-25","passed","2026-08-25","","test_your_turn","",""
-"","251","test_inventory_available_with_saved_session[chromium]","tests","2026-08-25","passed","2026-08-25","","test_inventory","",""
-"","116","test_empty_username_shows_error[chromium]","tests","2026-08-25","passed","2026-08-25","","test_your_turn","",""
 "С сохранённой сессией открытие страницы товаров НЕ выкидывает на логин.
     Открой INVENTORY_URL и проверь, что текущий адрес страницы содержит 'inventory'.
-    ","206","test_inventory_url_when_authenticated[chromium]","tests","2026-08-25","passed","2026-08-25","","test_inventory","",""
-"","109","test_locked_out_user_shows_error[chromium]","tests","2026-08-25","passed","2026-08-25","","test_your_turn","",""
-"","151","test_successful_login[chromium]","tests","2026-08-25","passed","2026-08-25","","test_login","",""
+    ","218","test_inventory_url_when_authenticated[chromium]","tests","2026-08-26","passed","2026-08-26","","test_inventory","",""
+"","232","test_inventory_available_with_saved_session[chromium]","tests","2026-08-26","passed","2026-08-26","","test_inventory","",""
+"","182","test_successful_login[chromium]","tests","2026-08-26","passed","2026-08-26","","test_login","",""
+"","121","test_locked_out_user_shows_error[chromium]","tests","2026-08-26","passed","2026-08-26","","test_your_turn","",""
+"","173","test_inventory_shows_six_products[chromium]","tests","2026-08-26","passed","2026-08-26","","test_your_turn","",""
+"","121","test_empty_username_shows_error[chromium]","tests","2026-08-26","passed","2026-08-26","","test_your_turn","",""
+"","132","test_invalid_password_shows_error[chromium]","tests","2026-08-26","passed","2026-08-26","","test_login","",""
