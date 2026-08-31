@@ -38,9 +38,15 @@ def auth_state(browser: Browser, tmp_path_factory) -> str:
     login = LoginPage(page)
     login.load()
     login.login("standard_user", "secret_sauce")
-    page.wait_for_url("**/inventory.html")  # дождались успешного входа
+    page.wait_for_url("**/inventory.html")
 
-    context.storage_state(path=str(state_path))
+    state = context.storage_state(path=str(state_path))
+    # fail-fast: убедиться, что auth-cookie реально сохранилась
+    cookies = {c["name"] for c in state["cookies"]}
+    assert "session-username" in cookies, (
+        "Логин не сохранил session-cookie — авторизация не удалась, "
+        "нет смысла запускать inventory-тесты"
+    )
     context.close()
     return str(state_path)
 
