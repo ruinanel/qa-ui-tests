@@ -1,10 +1,10 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","110","test_locked_out_user_shows_error[chromium]","tests","2026-08-31","passed","2026-08-31","","test_your_turn","",""
-"","120","test_successful_login[chromium]","tests","2026-08-31","passed","2026-08-31","","test_login","",""
+"","116","test_locked_out_user_shows_error[chromium]","tests","2026-09-01","passed","2026-09-01","","test_your_turn","",""
+"","115","test_invalid_password_shows_error[chromium]","tests","2026-09-01","passed","2026-09-01","","test_login","",""
+"","158","test_inventory_shows_six_products[chromium]","tests","2026-09-01","passed","2026-09-01","","test_your_turn","",""
 "С сохранённой сессией открытие страницы товаров НЕ выкидывает на логин.
     Открой INVENTORY_URL и проверь, что текущий адрес страницы содержит 'inventory'.
-    ","230","test_inventory_url_when_authenticated[chromium]","tests","2026-08-31","passed","2026-08-31","","test_inventory","",""
-"","87","test_invalid_password_shows_error[chromium]","tests","2026-08-31","passed","2026-08-31","","test_login","",""
-"","90","test_empty_username_shows_error[chromium]","tests","2026-08-31","passed","2026-08-31","","test_your_turn","",""
-"","126","test_inventory_shows_six_products[chromium]","tests","2026-08-31","passed","2026-08-31","","test_your_turn","",""
-"","244","test_inventory_available_with_saved_session[chromium]","tests","2026-08-31","passed","2026-08-31","","test_inventory","",""
+    ","172","test_inventory_url_when_authenticated[chromium]","tests","2026-09-01","passed","2026-09-01","","test_inventory","",""
+"","114","test_empty_username_shows_error[chromium]","tests","2026-09-01","passed","2026-09-01","","test_your_turn","",""
+"","161","test_successful_login[chromium]","tests","2026-09-01","passed","2026-09-01","","test_login","",""
+"","183","test_inventory_available_with_saved_session[chromium]","tests","2026-09-01","passed","2026-09-01","","test_inventory","",""
