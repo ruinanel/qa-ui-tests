@@ -1,10 +1,10 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","257","test_inventory_available_with_saved_session[chromium]","tests","2026-10-15","passed","2026-10-15","","test_inventory","",""
+"","238","test_inventory_available_with_saved_session[chromium]","tests","2026-10-16","passed","2026-10-16","","test_inventory","",""
+"","83","test_invalid_password_shows_error[chromium]","tests","2026-10-16","passed","2026-10-16","","test_login","",""
+"","80","test_inventory_shows_six_products[chromium]","tests","2026-10-16","failed","2026-10-16","","test_your_turn","",""
 "С сохранённой сессией открытие страницы товаров НЕ выкидывает на логин.
     Открой INVENTORY_URL и проверь, что текущий адрес страницы содержит 'inventory'.
-    ","253","test_inventory_url_when_authenticated[chromium]","tests","2026-10-15","passed","2026-10-15","","test_inventory","",""
-"","93","test_empty_username_shows_error[chromium]","tests","2026-10-15","passed","2026-10-15","","test_your_turn","",""
-"","159","test_successful_login[chromium]","tests","2026-10-15","passed","2026-10-15","","test_login","",""
-"","105","test_inventory_shows_six_products[chromium]","tests","2026-10-15","failed","2026-10-15","","test_your_turn","",""
-"","145","test_invalid_password_shows_error[chromium]","tests","2026-10-15","passed","2026-10-15","","test_login","",""
-"","104","test_locked_out_user_shows_error[chromium]","tests","2026-10-15","passed","2026-10-15","","test_your_turn","",""
+    ","221","test_inventory_url_when_authenticated[chromium]","tests","2026-10-16","passed","2026-10-16","","test_inventory","",""
+"","92","test_locked_out_user_shows_error[chromium]","tests","2026-10-16","passed","2026-10-16","","test_your_turn","",""
+"","81","test_successful_login[chromium]","tests","2026-10-16","failed","2026-10-16","","test_login","",""
+"","83","test_empty_username_shows_error[chromium]","tests","2026-10-16","passed","2026-10-16","","test_your_turn","",""
