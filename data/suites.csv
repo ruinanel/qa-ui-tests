@@ -1,10 +1,10 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","64","test_successful_login[chromium]","tests","2026-10-18","failed","2026-10-18","","test_login","",""
+"","74","test_locked_out_user_shows_error[chromium]","tests","2026-10-18","passed","2026-10-18","","test_your_turn","",""
+"","89","test_invalid_password_shows_error[chromium]","tests","2026-10-18","passed","2026-10-18","","test_login","",""
+"","68","test_inventory_shows_six_products[chromium]","tests","2026-10-18","failed","2026-10-18","","test_your_turn","",""
+"","78","test_empty_username_shows_error[chromium]","tests","2026-10-18","passed","2026-10-18","","test_your_turn","",""
+"","198","test_inventory_available_with_saved_session[chromium]","tests","2026-10-18","passed","2026-10-18","","test_inventory","",""
 "С сохранённой сессией открытие страницы товаров НЕ выкидывает на логин.
     Открой INVENTORY_URL и проверь, что текущий адрес страницы содержит 'inventory'.
-    ","193","test_inventory_url_when_authenticated[chromium]","tests","2026-10-17","passed","2026-10-17","","test_inventory","",""
-"","104","test_empty_username_shows_error[chromium]","tests","2026-10-17","passed","2026-10-17","","test_your_turn","",""
-"","108","test_successful_login[chromium]","tests","2026-10-17","failed","2026-10-17","","test_login","",""
-"","110","test_inventory_shows_six_products[chromium]","tests","2026-10-17","failed","2026-10-17","","test_your_turn","",""
-"","197","test_inventory_available_with_saved_session[chromium]","tests","2026-10-17","passed","2026-10-17","","test_inventory","",""
-"","108","test_invalid_password_shows_error[chromium]","tests","2026-10-17","passed","2026-10-17","","test_login","",""
-"","112","test_locked_out_user_shows_error[chromium]","tests","2026-10-17","passed","2026-10-17","","test_your_turn","",""
+    ","205","test_inventory_url_when_authenticated[chromium]","tests","2026-10-18","passed","2026-10-18","","test_inventory","",""
